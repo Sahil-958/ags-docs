@@ -141,7 +141,9 @@ for the rest of them.
 
 ### Window
 
+[window](../../../assets/widget_visuals/windows/window.png)
 subclass of [Gtk.Window](https://gjs-docs.gnome.org/gtk30~3.0/gtk.window)
+
 
 the toplevel widget that holds everything
 
@@ -172,6 +174,7 @@ const window = Widget.Window({
 
 ### Box
 
+[box](../../../assets/widget_visuals/containers/box.png)
 subclass of [Gtk.Box](https://gjs-docs.gnome.org/gtk30~3.0/gtk.box)
 
 the main container widget
@@ -194,6 +197,7 @@ const box = Widget.Box({
 
 ### Button
 
+[button](../../../assets/widget_visuals/buttons/button.png)
 subclass of [Gtk.Button](https://gjs-docs.gnome.org/gtk30~3.0/gtk.button)
 
 `on-clicked` will be executed on `Enter` if the button and its window has focus
@@ -222,6 +226,7 @@ const button = Widget.Button({
 
 ### Calendar
 
+[calendar](../../../assets/widget_visuals/displayWidgets/calendar.png)
 subclass of [Gtk.Calendar](https://gjs-docs.gnome.org/gtk30~3.0/gtk.calendar)
 
 | Property | Type | Description |
@@ -247,6 +252,7 @@ const calendar = Widget.Calendar({
 
 ### CenterBox
 
+[centerbox](../../../assets/widget_visuals/containers/centerbox.png)
 subclass of [Gtk.Box](https://gjs-docs.gnome.org/gtk30~3.0/gtk.box)
 
 | Property | Type | Description |
@@ -298,6 +304,7 @@ const progress = Widget.CircularProgress({
 
 ### ColorButton
 
+[colorbutton](../../../assets/widget_visuals/buttons/color-button.png)
 subclass of [Gtk.ColorButton](https://gjs-docs.gnome.org/gtk30~3.0/gtk.colorbutton)
 
 | Property | Type |
@@ -314,6 +321,7 @@ const colorbutton = Widget.ColorButton({
 
 ### DrawingArea
 
+[drawingarea](../../../assets/widget_visuals/displayWidgets/drawingarea.png)
 subclass of [Gtk.DrawingArea](https://gjs-docs.gnome.org/gtk30~3.0/gtk.drawingarea)
 
 | Property | Type |
@@ -340,6 +348,7 @@ const drawingarea = Widget.DrawingArea({
 
 ### Entry
 
+[entry](../../../assets/widget_visuals/entries/entry.png)
 subclass of [Gtk.Entry](https://gjs-docs.gnome.org/gtk30~3.0/gtk.entry)
 
 | Property | Type |
@@ -412,6 +421,7 @@ const fixed = Widget.Fixed({
 
 ### FlowBox
 
+[flowbox](../../../assets/widget_visuals/containers/flow-box.png)
 subclass of [Gtk.FlowBox](https://gjs-docs.gnome.org/gtk30~3.0/gtk.flowbox)
 
 :::note
@@ -429,6 +439,7 @@ const flowbox = Widget.FlowBox({
 
 ### FontButton
 
+[fontbutton](../../../assets/widget_visuals/buttons/font-button.png)
 subclass of [Gtk.FontButton](https://gjs-docs.gnome.org/gtk30~3.0/gtk.fontbutton)
 
 | Property | Type | Description |
@@ -475,6 +486,7 @@ Widget.Icon({
 
 ### Label
 
+[label](../../../assets/widget_visuals/displayWidgets/label.png)
 subclass of [Gtk.Label](https://gjs-docs.gnome.org/gtk30~3.0/gtk.label)
 
 | Property | Type | Description |
@@ -499,6 +511,7 @@ Widget.Label('hello')
 
 ### LevelBar
 
+[levelbar](../../../assets/widget_visuals/displayWidgets/levelbar.png)
 subclass of [Gtk.LevelBar](https://gjs-docs.gnome.org/gtk30~3.0/gtk.levelbar)
 
 | Property | Type | Description |
@@ -522,6 +535,7 @@ const discrete = Widget.LevelBar({
 
 ### ListBox
 
+[listbox](../../../assets/widget_visuals/containers/list-box.png)
 subclass of [Gtk.ListBox](https://gjs-docs.gnome.org/gtk30~3.0/gtk.listbox)
 
 :::note
@@ -539,6 +553,7 @@ const listbox = Widget.ListBox({
 
 ### Menu
 
+[menu](../../../assets/widget_visuals/displayWidgets/menu.png)
 subclass of [Gtk.Menu](https://gjs-docs.gnome.org/gtk30~3.0/gtk.menu)
 
 | Property | Type |
@@ -567,6 +582,7 @@ function RightClickMenu() {
 
 ### MenuBar
 
+[menubar](../../../assets/widget_visuals/displayWidgets/menubar.png)
 subclass of [Gtk.MenuBar](https://gjs-docs.gnome.org/gtk30~3.0/gtk.menubar)
 
 :::note
@@ -608,6 +624,7 @@ const menu = Widget.Menu({
 
 ### Overlay
 
+[overlay](../../../assets/widget_visuals/containers/overlay.png)
 subclass of [Gtk.Overlay](https://gjs-docs.gnome.org/gtk30~3.0/gtk.overlay)
 Takes the size of its first child, then places subsequent children on
 top of each other and won't render them outside the container.
@@ -620,6 +637,7 @@ top of each other and won't render them outside the container.
 
 ### ProgressBar
 
+[progressbar](../../../assets/widget_visuals/displayWidgets/progressbar.png)
 subclass of [Gtk.ProgressBar](https://gjs-docs.gnome.org/gtk30~3.0/gtk.progressbar)
 
 :::note
@@ -681,6 +699,7 @@ const scrollable = Widget.Scrollable({
 
 ### Separator
 
+[separator](../../../assets/widget_visuals/displayWidgets/separator.png)
 subclass of [Gtk.Separator](https://gjs-docs.gnome.org/gtk30~3.0/gtk.separator)
 
 | Property | Type | Description |
@@ -724,6 +743,7 @@ Widget.Slider({
 
 ### SpinButton
 
+[spinbutton](../../../assets/widget_visuals/entries/spinbutton.png)
 subclass of [Gtk.SpinButton](https://gjs-docs.gnome.org/gtk30~3.0/gtk.spinbutton)
 
 | Property | Type |
@@ -744,6 +764,7 @@ const spinbutton = Widget.SpinButton({
 
 ### Spinner
 
+[spinner](../../../assets/widget_visuals/displayWidgets/spinner.png)
 subclass of [Gtk.Spinner](https://gjs-docs.gnome.org/gtk30~3.0/gtk.Spinner)
 spinning icon showing that something is loading
 
@@ -753,6 +774,7 @@ const spinner = Widget.Spinner()
 
 ### Stack
 
+[stack](../../../assets/widget_visuals/containers/stack.png)
 subclass of [Gtk.Stack](https://gjs-docs.gnome.org/gtk30~3.0/gtk.stack)
 
 | Property | Type | Description |
@@ -773,6 +795,7 @@ const stack = Widget.Stack({
 
 ### Switch
 
+[switch](../../../assets/widget_visuals/buttons/switch.png)
 subclass of [Gtk.Switch](https://gjs-docs.gnome.org/gtk30~3.0/gtk.switch)
 
 | Property | Type |
@@ -787,6 +810,7 @@ const switch = Widget.Switch({
 
 ### ToggleButton
 
+[togglebutton](../../../assets/widget_visuals/buttons/toggle-button.png)
 subclass of [Gtk.ToggleButton](https://gjs-docs.gnome.org/gtk30~3.0/gtk.togglebutton)
 
 | Property | Type |
